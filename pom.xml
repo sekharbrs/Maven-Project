@@ -91,6 +91,14 @@
          </plugins>
       </pluginManagement>
    </build>
+   <distributionManagement>
+   <snapshotRepository>
+      <id>Repo</id>
+      <url>http://localhost:8081/repository/Repo/</url>
+   </snapshotRepository>
+</distributionManagement>
+
+      
 
    <profiles>
       <profile>
